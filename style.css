@@ -1,0 +1,238 @@
+body {
+    font-weight: bold;
+    font-family: 'Genos', sans-serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* before and after pshodo selecter */
+
+header::after {
+    background: url('img1.jpg');
+    content: "";
+    z-index: -1;
+    opacity: .9;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    padding: 4px 14px;
+}
+
+.left img {
+    display: inline-block;
+    margin: 5px 35px;
+    filter: invert(100%);
+    width: 25px;
+}
+
+.left div {
+    line-height: 2px;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.mid {
+    display: block;
+    width: 40%;
+    margin: 20px auto;
+    top: 20px;
+}
+
+.rigth {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+}
+
+.nevbar {
+    display: inline-block;
+}
+
+.nevbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.nevbar li a {
+    padding: 24px 13px;
+    color: white;
+    text-decoration: none;
+}
+
+.nevbar li a:hover,
+.nevbar li a.active {
+    text-decoration: underline;
+    color: green;
+
+}
+
+.btn {
+    font-family: 'Genos', sans-serif;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border: 2px solid grey;
+    border-radius: 13px;
+    margin: 0px 9px;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.container {
+    border: 2px solid green;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 30px 32px;
+    width: 30%;
+}
+
+.form-group input {
+    font-family: 'Genos', sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 3px auto;
+    text-align: center;
+    display: block;
+    width: 40%;
+    border: 2px solid black;
+    font-size: large;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    margin: 10px auto;
+    width: 23%;
+    text-align: center;
+}
+
+input[type='text'] {
+    padding: 4px;
+    border: 2px solid red;
+    font-weight: bold;
+    color: rgb(1, 0, 8);
+    background-color: paleturquoise;
+}
+
+#home {
+    height: 173px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#home button:hover {
+    background-color: rgb(175, 160, 160);
+    color: black;
+}
+
+#home::before {
+    top: 510px;
+    left: 452px;
+    height: 144px;
+    width: 33%;
+    content: "";
+    background-color: black;
+    position: absolute;
+    z-index: -1;
+    opacity: .5;
+    display: flex;
+    border-radius: 28px;
+}
+
+#home button {
+    /* font-weight: bold; */
+    background-color: rgb(53, 43, 43);
+    color: white;
+    border: 2px solid grey;
+    border-radius: 13px;
+    margin: 0px 9px;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#home h2 {
+    margin: 4px;
+}
+
+#home p {
+    margin: 2px;
+}
+
+.services h2 {
+    margin: 4px;
+}
+
+.services p {
+    margin: 2px;
+}
+
+.services {
+    background-color: #e2e8e8;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    border: 2px solid brown;
+    align-items: center;
+    border-radius: 23px;
+    padding: 10px;
+}
+
+.services-container {
+    display: flex;
+    flex-direction: row;
+    color: black;
+}
+
+.services-container::before {
+    top: 668px;
+    height: 431px;
+    width: 1349px;
+    content: "";
+    background-color: black;
+    position: absolute;
+    z-index: -1;
+    opacity: .3;
+}
+
+.services .box img {
+    border-radius: 25px;
+    margin: 5px 10px;
+    display: block;
+    height: 150px;
+}
+
+#tools {
+    color: black;
+    align-items: center;
+    font-size: 25px;
+    text-align: center;
+}
+
+#tools h1 {
+    top: 1500px;
+}
