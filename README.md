@@ -1,1 +1,1 @@
-# gym-website
+# gym website frontend project
